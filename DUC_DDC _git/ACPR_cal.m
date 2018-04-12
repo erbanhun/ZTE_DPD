@@ -9,6 +9,10 @@
 % Date: 2018-March-05
 % --------------------------------------------------------------------
 function [ACPR_up, ACPR_down] = ACPR_cal(x, Fs, BW, N)
+% x: 输入信号
+% Fs: 采样频率
+% BW： 信号带宽
+% N： 汉宁窗系数
 %% testbench
 % close all
 % clear
